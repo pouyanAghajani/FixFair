@@ -5,9 +5,9 @@
 
 ## Current status
 
-**Phase:** 1, Data — done
+**Phase:** 2, AI core — done
 **Last updated:** 2026-10-16
-**Summary:** 259 synthetic price offers across 59 Tehran shops, 20 services, 150 reviews. JSON-backed repositories with full test coverage. Data validated by seed script.
+**Summary:** Persian NLP query parser (service/car/city/intent), price normalizer (ranges, Persian digits, units), Zod schemas, 53-case eval set at 100%, 29 tests passing.
 
 ## Git
 
@@ -53,10 +53,10 @@ Phase 2: AI core — query parser, normalization pipeline, Zod schemas, evaluati
 
 ### Phase 2: AI core (the heart of the project)
 
-- [ ] Query parser: natural language to `{service, car, city, intent}`
-- [ ] Normalization pipeline: messy text to standard record
-- [ ] Zod schemas for all LLM outputs
-- [ ] Evaluation set (50 cases) + accuracy report
+- [x] Query parser: natural language to `{service, car, city, intent}` — deterministic Persian NLP engine + optional LLM path
+- [x] Normalization pipeline: messy text to standard record — Persian digit conversion, price ranges, unit handling
+- [x] Zod schemas for all LLM outputs — parseQuery, normalizeOffer, explainResult
+- [x] Evaluation set (50 cases) + accuracy report — 53 cases, 100% accuracy
 
 ### Phase 3: Search and ranking
 
@@ -90,6 +90,7 @@ Phase 2: AI core — query parser, normalization pipeline, Zod schemas, evaluati
 | ---- | ------------- |
 | 2026-10-16 | Phase 0: git init, .gitignore, Next.js 15 + TS + Tailwind v4, RTL + Vazirmatn, .env.example, vitest |
 | 2026-10-16 | Phase 1: types, data generator, 259 offers / 59 shops / 20 services / 150 reviews, repositories, seed validator, 13 tests |
+| 2026-10-16 | Phase 2: query parser, normalizer, Zod schemas, LLM client, 53-case eval at 100%, 29 tests |
 
 ## Problems / open questions
 
