@@ -5,9 +5,9 @@
 
 ## Current status
 
-**Phase:** 2, AI core — done
+**Phase:** 3, Search and ranking — done
 **Last updated:** 2026-10-16
-**Summary:** Persian NLP query parser (service/car/city/intent), price normalizer (ranges, Persian digits, units), Zod schemas, 53-case eval set at 100%, 29 tests passing.
+**Summary:** Search API endpoint, pure ranking engine (4 intents), IQR-based anomaly detection, AI explainer with real numbers. 40 tests passing.
 
 ## Git
 
@@ -60,10 +60,10 @@ Phase 2: AI core — query parser, normalization pipeline, Zod schemas, evaluati
 
 ### Phase 3: Search and ranking
 
-- [ ] Search API
-- [ ] Ranking by intent (cheapest, nearest, best rated, best value)
-- [ ] AI explanation of the best choice
-- [ ] Suspicious price detection (vs market average)
+- [x] Search API — POST /api/search ties parser + repos + ranking + explain
+- [x] Ranking by intent (cheapest, nearest, best rated, best value) — pure functions in lib/ranking
+- [x] AI explanation of the best choice — deterministic explainer with real numbers
+- [x] Suspicious price detection (vs market average) — IQR-based anomaly detection
 
 ### Phase 4: UI
 
@@ -91,6 +91,7 @@ Phase 2: AI core — query parser, normalization pipeline, Zod schemas, evaluati
 | 2026-10-16 | Phase 0: git init, .gitignore, Next.js 15 + TS + Tailwind v4, RTL + Vazirmatn, .env.example, vitest |
 | 2026-10-16 | Phase 1: types, data generator, 259 offers / 59 shops / 20 services / 150 reviews, repositories, seed validator, 13 tests |
 | 2026-10-16 | Phase 2: query parser, normalizer, Zod schemas, LLM client, 53-case eval at 100%, 29 tests |
+| 2026-10-16 | Phase 3: search API, ranking engine (4 intents), IQR anomaly detection, AI explainer, 40 tests |
 
 ## Problems / open questions
 
