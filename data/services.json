@@ -1,0 +1,122 @@
+[
+  {
+    "id": "srv-fender",
+    "name": "گلگیر",
+    "category": "bodywork",
+    "description": "تعمیر و صافکاری گلگیر"
+  },
+  {
+    "id": "srv-door",
+    "name": "درب",
+    "category": "bodywork",
+    "description": "تعمیر و تعویض درب"
+  },
+  {
+    "id": "srv-bumper",
+    "name": "سپر",
+    "category": "bodywork",
+    "description": "تعمیر و تعویض سپر"
+  },
+  {
+    "id": "srv-hood",
+    "name": "کاپوت",
+    "category": "bodywork",
+    "description": "تعمیر و صافکاری کاپوت"
+  },
+  {
+    "id": "srv-trunk",
+    "name": "درب صندوق",
+    "category": "bodywork",
+    "description": "تعمیر درب صندوق"
+  },
+  {
+    "id": "srv-paint-full",
+    "name": "رنگ کامل",
+    "category": "paint",
+    "description": "رنگ کامل ماشین"
+  },
+  {
+    "id": "srv-paint-partial",
+    "name": "رنگ جزئی",
+    "category": "paint",
+    "description": "رنگ جزئی و تاپینگ"
+  },
+  {
+    "id": "srv-glass-front",
+    "name": "شیشه جلو",
+    "category": "glass",
+    "description": "تعویض شیشه جلو"
+  },
+  {
+    "id": "srv-glass-side",
+    "name": "شیشه جانبی",
+    "category": "glass",
+    "description": "تعویض شیشه جانبی"
+  },
+  {
+    "id": "srv-glass-rear",
+    "name": "شیشه عقب",
+    "category": "glass",
+    "description": "تعویض شیشه عقب"
+  },
+  {
+    "id": "srv-ac",
+    "name": "کولر",
+    "category": "ac",
+    "description": "تعمیر و شارژ کولر"
+  },
+  {
+    "id": "srv-tires",
+    "name": "لاستیک",
+    "category": "tires",
+    "description": "تعویض و نصب لاستیک"
+  },
+  {
+    "id": "srv-brakes",
+    "name": "ترمز",
+    "category": "brakes",
+    "description": "تعمیر سیستم ترمز"
+  },
+  {
+    "id": "srv-suspension",
+    "name": "تعلیق",
+    "category": "suspension",
+    "description": "تعمیر سیستم تعلیق"
+  },
+  {
+    "id": "srv-transmission",
+    "name": "گیربکس",
+    "category": "transmission",
+    "description": "تعمیر گیربکس"
+  },
+  {
+    "id": "srv-engine",
+    "name": "موتور",
+    "category": "mechanical",
+    "description": "تعمیر موتور"
+  },
+  {
+    "id": "srv-electrical",
+    "name": "برق",
+    "category": "electrical",
+    "description": "تعمیر سیستم برق"
+  },
+  {
+    "id": "srv-battery",
+    "name": "باتری",
+    "category": "electrical",
+    "description": "تعویض باتری"
+  },
+  {
+    "id": "srv-alternator",
+    "name": "دینام",
+    "category": "electrical",
+    "description": "تعمیر و تعویض دینام"
+  },
+  {
+    "id": "srv-radiator",
+    "name": "رادیاتور",
+    "category": "mechanical",
+    "description": "تعمیر و تعویض رادیاتور"
+  }
+]
